@@ -1,0 +1,15 @@
+{
+    "name": "fstudio/lvalidator",
+    "autoload": {
+        "psr-4": {
+            "Fstudio\\Lvalidator\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Fang (FSTUDIO)",
+            "email": "fang@fstudio.co.nz"
+        }
+    ],
+    "require": {}
+}
