@@ -11,5 +11,7 @@
             "email": "fang@fstudio.co.nz"
         }
     ],
-    "require": {}
+    "require": {
+        "php": "^8.0.2"
+    }
 }
