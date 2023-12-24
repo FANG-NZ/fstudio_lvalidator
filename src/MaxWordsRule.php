@@ -46,6 +46,13 @@ class MaxWordsRule implements Rule
      */
     public function passes($attribute, $value)
     {
+        
+        /**
+         * Firstly check if max chars limited
+         */
+        if(strlen($value) > $this->maxChars)
+            return false;
+
         return str_word_count($value) <= $this->maxWords;
     }
 
